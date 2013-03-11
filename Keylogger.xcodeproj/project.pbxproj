@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013ACA9C16EDB0170070F961 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013ACA9B16EDB0170070F961 /* Cocoa.framework */; };
+		013ACAA616EDB0170070F961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 013ACAA416EDB0170070F961 /* InfoPlist.strings */; };
+		013ACAA816EDB0170070F961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013ACAA716EDB0170070F961 /* main.m */; };
+		013ACAAC16EDB0170070F961 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 013ACAAA16EDB0170070F961 /* Credits.rtf */; };
+		013ACAAF16EDB0170070F961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013ACAAE16EDB0170070F961 /* AppDelegate.m */; };
+		013ACAB216EDB0170070F961 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013ACAB016EDB0170070F961 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		013ACA9816EDB0170070F961 /* Keylogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keylogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013ACA9B16EDB0170070F961 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		013ACA9E16EDB0170070F961 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		013ACA9F16EDB0170070F961 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		013ACAA016EDB0170070F961 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		013ACAA316EDB0170070F961 /* Keylogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Keylogger-Info.plist"; sourceTree = "<group>"; };
+		013ACAA516EDB0170070F961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		013ACAA716EDB0170070F961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		013ACAA916EDB0170070F961 /* Keylogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keylogger-Prefix.pch"; sourceTree = "<group>"; };
+		013ACAAB16EDB0170070F961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		013ACAAD16EDB0170070F961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		013ACAAE16EDB0170070F961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		013ACAB116EDB0170070F961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013ACA9516EDB0170070F961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013ACA9C16EDB0170070F961 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013ACA8F16EDB0170070F961 = {
+			isa = PBXGroup;
+			children = (
+				013ACAA116EDB0170070F961 /* Keylogger */,
+				013ACA9A16EDB0170070F961 /* Frameworks */,
+				013ACA9916EDB0170070F961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013ACA9916EDB0170070F961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013ACA9816EDB0170070F961 /* Keylogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013ACA9A16EDB0170070F961 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013ACA9B16EDB0170070F961 /* Cocoa.framework */,
+				013ACA9D16EDB0170070F961 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		013ACA9D16EDB0170070F961 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013ACA9E16EDB0170070F961 /* AppKit.framework */,
+				013ACA9F16EDB0170070F961 /* CoreData.framework */,
+				013ACAA016EDB0170070F961 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		013ACAA116EDB0170070F961 /* Keylogger */ = {
+			isa = PBXGroup;
+			children = (
+				013ACAAD16EDB0170070F961 /* AppDelegate.h */,
+				013ACAAE16EDB0170070F961 /* AppDelegate.m */,
+				013ACAB016EDB0170070F961 /* MainMenu.xib */,
+				013ACAA216EDB0170070F961 /* Supporting Files */,
+			);
+			path = Keylogger;
+			sourceTree = "<group>";
+		};
+		013ACAA216EDB0170070F961 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				013ACAA316EDB0170070F961 /* Keylogger-Info.plist */,
+				013ACAA416EDB0170070F961 /* InfoPlist.strings */,
+				013ACAA716EDB0170070F961 /* main.m */,
+				013ACAA916EDB0170070F961 /* Keylogger-Prefix.pch */,
+				013ACAAA16EDB0170070F961 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013ACA9716EDB0170070F961 /* Keylogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013ACAB516EDB0170070F961 /* Build configuration list for PBXNativeTarget "Keylogger" */;
+			buildPhases = (
+				013ACA9416EDB0170070F961 /* Sources */,
+				013ACA9516EDB0170070F961 /* Frameworks */,
+				013ACA9616EDB0170070F961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keylogger;
+			productName = Keylogger;
+			productReference = 013ACA9816EDB0170070F961 /* Keylogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013ACA9016EDB0170070F961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = mosca1337;
+			};
+			buildConfigurationList = 013ACA9316EDB0170070F961 /* Build configuration list for PBXProject "Keylogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 013ACA8F16EDB0170070F961;
+			productRefGroup = 013ACA9916EDB0170070F961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013ACA9716EDB0170070F961 /* Keylogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013ACA9616EDB0170070F961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013ACAA616EDB0170070F961 /* InfoPlist.strings in Resources */,
+				013ACAAC16EDB0170070F961 /* Credits.rtf in Resources */,
+				013ACAB216EDB0170070F961 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013ACA9416EDB0170070F961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013ACAA816EDB0170070F961 /* main.m in Sources */,
+				013ACAAF16EDB0170070F961 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		013ACAA416EDB0170070F961 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013ACAA516EDB0170070F961 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		013ACAAA16EDB0170070F961 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013ACAAB16EDB0170070F961 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		013ACAB016EDB0170070F961 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013ACAB116EDB0170070F961 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		013ACAB316EDB0170070F961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		013ACAB416EDB0170070F961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		013ACAB616EDB0170070F961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keylogger/Keylogger-Prefix.pch";
+				INFOPLIST_FILE = "Keylogger/Keylogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		013ACAB716EDB0170070F961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keylogger/Keylogger-Prefix.pch";
+				INFOPLIST_FILE = "Keylogger/Keylogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013ACA9316EDB0170070F961 /* Build configuration list for PBXProject "Keylogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013ACAB316EDB0170070F961 /* Debug */,
+				013ACAB416EDB0170070F961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013ACAB516EDB0170070F961 /* Build configuration list for PBXNativeTarget "Keylogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013ACAB616EDB0170070F961 /* Debug */,
+				013ACAB716EDB0170070F961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013ACA9016EDB0170070F961 /* Project object */;
+}
