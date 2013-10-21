@@ -1,6 +1,6 @@
 # OSX-Keylogger
 
-This is a simple key logger that is targeted for Mac OSX machines. This program records keystrokes and modifier keys. Additionally, the program in which the keys were pressed is also recorded. The log is saved to the desktop. Note: `Enable access for assistive devices` will need to be enable in the 'Accessibility' pane of System Settings for newer Macs.
+A simple key logger that is targeted for Mac OSX machines. This program records keystrokes and modifier keys. Additionally, the program in which the keys were pressed is also recorded. The log is saved to the desktop. Note: `Enable access for assistive devices` will need to be enable in the 'Accessibility' pane of System Settings for newer Macs.
 
 ## How to Build
 
