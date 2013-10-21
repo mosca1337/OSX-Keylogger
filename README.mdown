@@ -1,15 +1,11 @@
-OSX-Peristant-BackDoor
-======================
+# OSX-Keylogger
 
-These files come with the tutorial: http://patrickmosca.com/osx-persistent-backdoor/
+This is a simple key logger that is targeted for Mac OSX machines. This program records keystrokes and modifier keys. Additionally, the program in which the keys were pressed is also recorded. The log is saved to the desktop. Note: `Enable access for assistive devices` will need to be enable in the 'Accessibility' pane of System Settings for newer Macs.
 
-1) Edit 'connect.sh' with your publically visible sever ip address and port.
-2) Run 'setup.bash' on modern OS X to install the backdoor.
-3) Catch the shell remotely with 'nc -l -p 1337'
+## How to Build
 
-A sample Quicktime movie icon and Platypus file is also included. 
-These can be used to package the 'setup.bash' script into an OS X app bundle.
-The purpose of this package is to show how easy it is to hide a backdoor into a file that 
-looks identical to a movie. 
+Open the Xcode project and `run`.
 
-Platypus can be found here: http://sveinbjorn.org/platypus
+## License
+
+This code is distributed under the terms and conditions of the [MIT license](LICENSE). 

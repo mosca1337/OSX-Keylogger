@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "013ACA9716EDB0170070F961"
-               BuildableName = "Keylogger.app"
+               BuildableName = "OSX-Keylogger.app"
                BlueprintName = "OSX-Keylogger"
                ReferencedContainer = "container:OSX-Keylogger.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "013ACA9716EDB0170070F961"
-            BuildableName = "Keylogger.app"
+            BuildableName = "OSX-Keylogger.app"
             BlueprintName = "OSX-Keylogger"
             ReferencedContainer = "container:OSX-Keylogger.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "013ACA9716EDB0170070F961"
-            BuildableName = "Keylogger.app"
+            BuildableName = "OSX-Keylogger.app"
             BlueprintName = "OSX-Keylogger"
             ReferencedContainer = "container:OSX-Keylogger.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "013ACA9716EDB0170070F961"
-            BuildableName = "Keylogger.app"
+            BuildableName = "OSX-Keylogger.app"
             BlueprintName = "OSX-Keylogger"
             ReferencedContainer = "container:OSX-Keylogger.xcodeproj">
          </BuildableReference>

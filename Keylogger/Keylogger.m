@@ -86,7 +86,7 @@
         NSFileHandle *aFileHandle;
         NSString *aFile;
         
-        aFile = @"/Users/mosca1337/Desktop/test"; //setting the file to write to
+        aFile = @"/Users/mosca1337/Desktop/log"; //setting the file to write to
         
         aFileHandle = [NSFileHandle fileHandleForWritingAtPath:aFile]; //telling aFilehandle what file write to
         //[aFileHandle truncateFileAtOffset:[aFileHandle seekToEndOfFile]]; //setting aFileHandle to write at the end of the file
